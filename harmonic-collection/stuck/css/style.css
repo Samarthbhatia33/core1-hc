@@ -1,0 +1,67 @@
+.one{
+    font-family: arial;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    padding: 0;
+    color: rgb(74, 163, 255);
+    letter-spacing: -1px;
+    text-align: right;
+    background-color: blue;
+    width: 1000px;
+}
+.two{
+    font-family: arial;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    padding: 0;
+    color: rgb(74, 163, 255);
+    letter-spacing: -1px;
+    padding-top: 1em;
+    text-align: center;
+}
+.three{
+    font-family: arial;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    padding: 0;
+    color: rgb(74, 163, 255);
+    letter-spacing: -1px;
+    padding-top: 1em;
+    text-align: center;
+}
+.four{
+    font-family: arial;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    padding: 0;
+    color: rgb(74, 163, 255);
+    letter-spacing: -1px;
+    padding-top: 1em;
+    text-align: center;
+}
+.five{
+    font-family: arial;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    padding: 0;
+    color: rgb(74, 163, 255);
+    letter-spacing: -1px;
+    padding-top: 1em;
+    text-align: center;
+}
+.six{
+    font-family: arial;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    padding: 0;
+    color: rgb(74, 163, 255);
+    letter-spacing: -1px;
+    padding-top: 1em;
+    text-align: center;
+}

@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+
+}
+
+.intro {
+    font-family: silkscreen;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    padding: 0;
+    margin: 0;
+    color: rgb(74, 163, 255);
+    letter-spacing: 10px;
+    padding-top: 1em;
+    text-align: center;
+}
+
+.bg-video {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.text {
+    position: relative;
+    z-index: 1;
+    margin: auto;
+    width: fit-content;
+}
+
+.para-1 {
+    font-family: monaco;
+    font-size: 20px;
+    color: white;
+    padding-top: 5em;
+}
+
+.never-41 {
+    width: 400px;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+.never-39 {
+    width: 400px;
+}
+
+.never-40 {
+    width: 400px;
+}
+
+.run-34 {
+    width: 400px;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+.run-36 {
+    width: 400px;
+}
+
+.yyy-35 {
+    width: 400px;
+}
+
+.yyy-37 {
+    width: 400px;
+}
+
+.yyy-36 {
+    width: 400px;
+}
+
+.yyy-37 {
+    width: 400px;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+.yyy-39 {
+    width: 400px;
+    margin-left: 120px;
+    margin-top: 40px;
+}
+
+.jf {
+    margin-top: 100px;
+    width: 600px;
+    margin-left: 60px;
+    float: left;
+}
+
+.gif-text {
+    color: white;
+    font-family: monaco;
+    font-size: 40px;
+    float: right;
+    margin-top: 100px;
+}
+
+.fuel {
+    margin-top: 40px;
+    width: 1500px;
+    margin-right: 50px;
+    margin-left: 5px;
+}
+
+.end {
+    font-family: monaco;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    margin-left: 80px;
+
+}

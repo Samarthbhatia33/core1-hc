@@ -1,39 +1,61 @@
-.one{
-    font-family: arial;
+p{
+    font-family:American Typewriter, serif;
+}
+
+.title{
+    font-family: American Typewriter, serif;
     font-size: 40px;
     font-weight: bold;
-    margin-bottom: 0px;
-    padding: 0;
-    color: rgb(74, 163, 255);
+    padding-bottom: 20px;
+    padding-top: 20px;
+    color: #94E8B4;
     letter-spacing: -1px;
     text-align: right;
-    background-color: blue;
-    width: 1000px;
+    background-color: #B74F6F;
+    border-radius: 20px;
+    width: 1500px;
 }
+.title:hover{
+    text-decoration: underline;
+    color: #03254E;
+    }
+
+.one{
+    font-family: American Typewriter;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    margin-left: 110px;
+    color: #ADBDFF;
+    letter-spacing: -1px;
+    text-align: right;
+    width: 1000px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
 .two{
-    font-family: arial;
     font-size: 40px;
     font-weight: bold;
     margin-bottom: 0px;
     padding: 0;
-    color: rgb(74, 163, 255);
+    color: #B74F6F;
     letter-spacing: -1px;
     padding-top: 1em;
     text-align: center;
 }
 .three{
-    font-family: arial;
     font-size: 40px;
     font-weight: bold;
     margin-bottom: 0px;
     padding: 0;
-    color: rgb(74, 163, 255);
+    color: #94E8B4;
     letter-spacing: -1px;
     padding-top: 1em;
     text-align: center;
 }
 .four{
-    font-family: arial;
+
     font-size: 40px;
     font-weight: bold;
     margin-bottom: 0px;
@@ -44,7 +66,38 @@
     text-align: center;
 }
 .five{
-    font-family: arial;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    padding: 0;
+    color: #ADBDFF;
+    letter-spacing: -1px;
+    padding-top: 1em;
+    text-align: center;
+}
+.six{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    padding: 0;
+    color: #B74F6F;
+    letter-spacing: -1px;
+    padding-top: 1em;
+    text-align: center;
+}
+
+.seven{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    padding: 0;
+    color: #94E8B4;
+    letter-spacing: -1px;
+    padding-top: 1em;
+    text-align: center;
+}
+
+.eight{
     font-size: 40px;
     font-weight: bold;
     margin-bottom: 0px;
@@ -54,14 +107,26 @@
     padding-top: 1em;
     text-align: center;
 }
-.six{
-    font-family: arial;
+.nine{
     font-size: 40px;
     font-weight: bold;
     margin-bottom: 0px;
     padding: 0;
-    color: rgb(74, 163, 255);
+    color: #ADBDFF;
     letter-spacing: -1px;
     padding-top: 1em;
     text-align: center;
+}
+.ten{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    padding: 0;
+    color: #B74F6F;
+    letter-spacing: -1px;
+    padding-top: 1em;
+    text-align: center;
+}
+body {
+    background-color: #03254E;
 }

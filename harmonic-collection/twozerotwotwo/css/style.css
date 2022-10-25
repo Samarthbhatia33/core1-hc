@@ -1,0 +1,74 @@
+.search-one{
+    border: 0px solid rgb(0, 0, 0);
+    border-radius: 100px;
+    height: 120px;
+    width: 70%;
+    padding: 2px 23px 15px 30px;
+    outline: 0;
+    background-color: #ffffff;
+    font-size: 50px;
+    text-align: center;
+    font-family: OCR A std;
+    margin-top: 10px;
+    margin-right: 80px;
+}
+.search-one:hover, .search-two:focus {
+  background-color: rgb(0, 0, 0);
+}
+.search-two{
+    border: 0px solid rgb(20, 0, 135);
+    border-radius: 800px;
+    height: 400px;
+    width: 18%;
+    padding: 2px 23px 10px 30px;
+    outline: 0;
+    background-color: #ffffff;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 40px;
+    font-family: 'OCR A std';
+}
+.search-two:hover, .search-two:focus {
+    background-color: rgb(0, 0, 0);
+  }
+
+  .search-three{
+    border: 0px solid rgb(0, 183, 61);
+    border-radius: 100px;
+    height: 140px;
+    width: 35%;
+    padding: 2px 23px 10px 30px;
+    outline: 0;
+    background-color: #ffffff;
+    font-size: 50px;
+    text-align:  center;
+    position: right;
+    margin-left: 5px;
+    margin-top: 40px;
+    font-family: 'OCR A std';
+  }
+  .search-three:hover, .search-two:focus {
+    background-color: rgb(0, 0, 0);
+  }
+  .search-four{
+    border: 0px solid rgb(0, 229, 255);
+    border-radius: 100px;
+    height: 120px;
+    width: 40%;
+    padding: 2px 23px 10px 30px;
+    outline: 0;
+    background-color: #ffffff;
+    font-size: 50px;
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 40px;
+    font-family: 'OCR A std';
+}
+.search-four:hover, .search-two:focus {
+  background-color: rgb(255, 0, 0);
+}
+
+body {
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}

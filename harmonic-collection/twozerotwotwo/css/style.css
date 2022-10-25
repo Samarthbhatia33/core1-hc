@@ -72,9 +72,31 @@
   color: white;
   font-family: OCR A std;
   margin-top: 100px;
+  line-height: -10px;
 }
-
+.search{
+  font-size: 60px;
+}
+.box{
+  font-size: 50px;
+}
+.search-letter{
+  font-size: 40px;
+}
+.field{
+  font-size: 30px;
+}
+.search-word{
+  font-size: 40px;
+}
+.bar{
+  font-size: 50px;
+}
+.graphical{
+  font-weight: 400;
+  font-size: 30px;
+}
 body {
-  background: rgb(238,174,202);
-  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  background: rgb(63,94,251);
+  background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
 }

@@ -1,5 +1,5 @@
 .search-one{
-    border: 0px solid rgb(0, 0, 0);
+    border: 6px solid rgb(130, 130, 130);
     border-radius: 100px;
     height: 120px;
     width: 70%;
@@ -16,7 +16,7 @@
   background-color: rgb(0, 0, 0);
 }
 .search-two{
-    border: 0px solid rgb(20, 0, 135);
+  border: 0px solid rgb(130, 130, 130);
     border-radius: 800px;
     height: 400px;
     width: 18%;
@@ -33,7 +33,7 @@
   }
 
   .search-three{
-    border: 0px solid rgb(0, 183, 61);
+    border: 6px solid rgb(130, 130, 130);
     border-radius: 100px;
     height: 140px;
     width: 35%;
@@ -51,7 +51,7 @@
     background-color: rgb(0, 0, 0);
   }
   .search-four{
-    border: 0px solid rgb(0, 229, 255);
+    border: 6px solid rgb(130, 130, 130);
     border-radius: 100px;
     height: 120px;
     width: 40%;
@@ -66,6 +66,12 @@
 }
 .search-four:hover, .search-two:focus {
   background-color: rgb(255, 0, 0);
+}
+
+.para-1{
+  color: white;
+  font-family: OCR A std;
+  margin-top: 100px;
 }
 
 body {

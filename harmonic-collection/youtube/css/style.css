@@ -14,6 +14,29 @@ p {
   .space{
     color: white;
   }
+  .math{
+    color: white;
+  }
+  .fit{
+    color: white;
+  }
+  .tubes{
+    color: white;
+    font-size: 40px;
+    font-family: 'OCR A Extended', sans-serif;
+margin-top: 0px;
+  }
+  .yous{
+    color: white;
+    font-size: 50px;
+    display: inline-block;
+    font-family: 'OCR A Extended', sans-serif;
+  }
+  .mes{
+    color: white;
+    font-size: 10px;
+    display: inline-block;
+  }
   body {
     margin: 0;
     background: rgb(28, 49, 68);
@@ -25,24 +48,7 @@ p {
     flex-direction: row;
     justify-content: space-between;
   }
-  
-  .left-section {
-    background-color: lightblue;
-    width: 150px;
-  }
-  
-  .middle-section {
-    background-color: lightpink;
-    flex: 1;
-    margin-left: 70px;
-    margin-right: 35px;
-    max-width: 500px;
-  }
-  
-  .right-section {
-    background-color: lightblue;
-    width: 200px;
-  }
+
   .thumbnail {
     width: 100%;
   }
@@ -84,6 +90,7 @@ p {
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 16px;
     row-gap: 40px;
+    margin-top: 10px;
   }
   .next-button{
    font-family: 'courier new';
@@ -97,3 +104,51 @@ p {
   .previous-button{
     font-family: 'courier new';
    }
+   #scroll-container {
+    border: 3px solid black;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+    #scroll-container {
+      border: 3px solid black;
+      border-radius: 5px;
+      overflow: hidden;
+    }
+    
+    #scroll-text {
+      text-align: right;
+    
+      /* animation properties */
+      -moz-transform: translateX(-100%);
+      -webkit-transform: translateX(-100%);
+      transform: translateX(-100%);
+      
+      -moz-animation: my-animation 15s linear infinite;
+      -webkit-animation: my-animation 15s linear infinite;
+      animation: my-animation 15s linear infinite;
+    }
+    
+    /* for Firefox */
+    @-moz-keyframes my-animation {
+      from { -moz-transform: translateX(-100%); }
+      to { -moz-transform: translateX(100%); }
+    }
+    
+    /* for Chrome */
+    @-webkit-keyframes my-animation {
+      from { -webkit-transform: translateX(-100%); }
+      to { -webkit-transform: translateX(100%); }
+    }
+    
+    @keyframes my-animation {
+      from {
+        -moz-transform: translateX(-100%);
+        -webkit-transform: translateX(-100%);
+        transform: translateX(-100%);
+      }
+      to {
+        -moz-transform: translateX(100%);
+        -webkit-transform: translateX(100%);
+        transform: translateX(100%);
+      }
+    }

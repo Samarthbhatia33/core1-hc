@@ -1,5 +1,113 @@
+#pot {
+    bottom: 15%;
+    position: absolute;
+    display:inline-block;
+    -webkit-animation: linear infinite;
+    -webkit-animation-name: run;
+    -webkit-animation-duration: 5s;
+  }
+  @-webkit-keyframes run {
+    0% {
+      left: 0;
+    }
+    50% {
+      left: 100%;
+    }
+    100% {
+      left: 0;    
+    }
+  }
 
+.bulba-para{
+font-size: 100PX;
+color: white;
+}
+.bulba{
 
+    width: 100px;
+    transform: rotate(0deg);
+    transition: 0.3s ease-in-out;
+}
+.bulba:hover{
+    transform: rotate(-45deg) scale(1.5);
+}
+.charmander{
+
+    width: 100px;
+    transform: rotate(0deg);
+    transition: 0.3s ease-in-out;
+}
+.charmander:hover{
+    transform: rotate(45deg) scale(1.5);
+}
+.squirtle{
+    width: 100px;
+    transform: rotate(0deg);
+    transition: 0.6s ease-in-out;
+}
+.squirtle:hover{
+    transform: rotate(-320deg)
+    }
+    .ivy{
+
+        width: 100px;
+        transform: rotate(0deg);
+        transition: 0.3s ease-in-out;
+    }
+    .ivy:hover{
+        transform: rotate(300deg) scale(0);
+    }
+    .charmeleon{
+    
+        width: 100px;
+        transform: rotate(0deg);
+        transition: 0.3s ease-in-out;
+        position: relative;
+        top: 0;
+        transition: top ease 0.5s;
+    }
+    .charmeleon:hover{
+        transform: rotate(45deg) scale(1.5);
+        top: -10px;
+    }
+    .chari{
+    
+        width: 100px;
+        transform: rotate(0deg);
+        transition: 0.3s ease-in-out;
+        position: relative;
+        top: 0;
+        transition: top ease 0.5s;
+    }
+    .chari:hover{
+        transform: rotate(0deg) scale(1.5);
+        top: -300px;
+    }
+    .war{
+        width: 100px;
+        transform: rotate(0deg);
+        transition: 0.6s ease-in-out;
+    }
+    .war:hover{
+        transform: rotate(-320deg)
+        }
+        .blast{
+            width: 100px;
+        transform: rotate(0deg);
+        transition: 0.6s ease-in-out;
+        }
+        .blast:hover{
+            transform: translateX(100px);
+        }
+        .venu{
+
+            width: 100px;
+            transform: rotate(0deg);
+            transition: 0.3s ease-in-out;
+        }
+        .venu:hover{
+            transform: rotate(0deg) scale(4.5);
+        }
 .img-1{
 
     width: 100px;
@@ -17,7 +125,7 @@ transform: rotate(15deg)
     transition: 0.2s ease-in-out;
 }
 .img-2:hover{
-transform: rotate(45deg)
+transform: rotate(45deg) scale(5.5);
 }
 .img-3{
     width: 100px;
@@ -43,6 +151,7 @@ transform: rotate(-820deg)
     width: 100px;
     transform: rotate(90deg);
     transition: 0.3s ease-in-out;
+    justify-content: center;
 }
 .fire-one:hover{
     transform: rotate(15deg)
@@ -63,5 +172,42 @@ transform: rotate(-820deg)
 }
 .fire-three:hover{
     transform: rotate(-320deg)
-
 }
+
+@keyframes color {
+  0%   { background: rgb(253, 228, 36); }
+  20%  { background: rgb(39, 102, 238); }
+  40%  { background: #12b3cc; }
+  60%  { background: #ea2727; }
+  80%  { background: #169fe4; }
+  100% { background: #0cc243; }
+}
+
+body {
+  background: #33CCCC; /* Fallback */
+  animation: color 9s infinite linear;
+  text-align: center;
+  padding: 2em;
+}
+h1 {
+  text-align: center;
+  font-family: 'Kavoon', sans-serif;
+  font-size: 2.5em;
+  color: white;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  .column {
+    flex: 50%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+  }

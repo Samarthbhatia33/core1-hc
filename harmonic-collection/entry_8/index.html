@@ -2,22 +2,12 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <link rel="stylesheet" href="css/style.css">
+    <link rel = "icon" href = 
+    "https://upload.wikimedia.org/wikipedia/commons/5/53/Pok%C3%A9_Ball_icon.svg" 
+            type = "image/x-icon">
 </head>
 <body>
-    <div style="
-    display: grid;
-    grid-template-columns: 200px 200px 200px 1fr;
-    align:center;
-    width: 100%;
-    box-sizing: border-box;
-    ">
-    <div style=" background-color:rgb(204,51,99); font-family: courier new; text-align: center;" class="ek"> Harmonic Collection </div>
-    <div style=" background-color:rgb(98,195,112); font-family: courier new; text-align: center;color: white;" class="dou"> Entry 8 </div>
-    <div style=" background-color:rgb(154, 209, 212); font-family: courier new; text-align: center;color: white;" class="teen"> Nov 2022 </div>
-    <div style=" background-color:rgb(194, 249, 187); font-family: courier new; text-align: center;"> YouTube? </div>
-</div>
   <style>
     * {
       box-sizing: border-box;
@@ -26,13 +16,10 @@
   content: "";
   clear: both;
   display: table;
-      width: 33.33%;
     }
     .dou{
-      width: 33.33%;
     }
     .teen{
-      width: 33.33%;
     }
     body {
       margin: 0;
@@ -53,6 +40,8 @@
       padding: 0px;
       margin: 0;
       box-sizing: border-box;
+      margin-bottom: 0;
+      padding-bottom: 0;
     }
     /* Create three equal columns that sits next to each other */
     .column {
@@ -70,6 +59,8 @@
       display: flex;
       -ms-flex-wrap: wrap; /* IE 10 */
       flex-wrap: wrap;
+      margin-bottom: 0;
+      padding-bottom: 0;
     }
     /* Create three equal columns that sits next to each other */
     .column-two {
@@ -128,6 +119,8 @@ box-sizing: border-box;
     font-family: 'gill sans';
       font-style: italic;
       text-align: right;
+      margin-bottom: 0;
+      padding-bottom: 0;
   }
   .introduction{
     display: -ms-flexbox;
@@ -165,6 +158,16 @@ box-sizing: border-box;
   .column-tres{
     width: 33.33%;
   }
+  .abs{
+    font-family: 'gill sans';
+      font-style: italic;
+      text-align: left;
+      padding: 0px;
+      width: 100%;
+  }
+  .psychic{
+    color: pink;
+  }
     </style>
     </head>
     <body>
@@ -186,20 +189,26 @@ box-sizing: border-box;
 
     <div class="row"> 
       <div class="column-uno">
-        <img class="bulba" src="images/bulba.png" style="width:100%">
-        <img class="charmander" src="images/fire-one.png" style="width:100%">
-        <img class="squirtle" src="images/squr.png" style="width:100%">
+        <img class="bulba" src="images/bulba.png" style="width: 80%">
+        <img class="charmander" src="images/fire-one.png" style="width:80%">
+        <img class="squirtle" src="images/squr.png" style="width:80%">
       </div>
       <div class="column-dos">
-        <img class="ivy" src="images/ivy.png" style="width:100%">
-        <img class="charmeleon" src="images/fire-two.webp" style="width:100%">
-        <img class="war" src="images/war.png" style="width:100%">
+        <img class="ivy" src="images/ivy.png" style="width:80%">
+        <img class="charmeleon" src="images/fire-two.webp" style="width:80%">
+        <img class="war" src="images/war.png" style="width:80%">
       </div>  
       <div class="column-tres">
-        <img class="venu"src="images/venu.png" style="width:100%">
-        <img class="chari"src="images/fire-three.png" style="width:100%">
-        <img class="blast" src="images/blast.png" style="width:100%">
+        <img class="venu"src="images/venu.png" style="width:80%">
+        <img class="chari"src="images/fire-three.png" style="width:80%">
+        <img class="blast" src="images/blast.png" style="width:80%">
       </div>
+    </div>
+    <h1 class="ABS">ABRA KADABRA! </h1>
+    <div class="para">
+      <p class="intro">
+        Hover/ Press on the <span class="psychic">Psychic</span> Pokemon below to see them transform.
+      </p>
     </div>
     <div>
       <div class="row-two"> 
@@ -209,57 +218,18 @@ box-sizing: border-box;
           <img class="alakazam" src="images/alakazam.png" style="width:50%">
         </div>
       </div>
-    <script>
-    // Get the elements with class="column"
-    var elements = document.getElementsByClassName("column");
-    
-    // Declare a loop variable
-    var i;
-    
-    // Full-width images
-    function one() {
-        for (i = 0; i < elements.length; i++) {
-        elements[i].style.msFlex = "100%";  // IE10
-        elements[i].style.flex = "100%";
-      }
-    }
-    
-    // Two images side by side
-    function two() {
-      for (i = 0; i < elements.length; i++) {
-        elements[i].style.msFlex = "50%";  // IE10
-        elements[i].style.flex = "50%";
-      }
-    }
-    
-    // Three images side by side
-    function four() {
-      for (i = 0; i < elements.length; i++) {
-        elements[i].style.msFlex = "25%";  // IE10
-        elements[i].style.flex = "25%";
-      }
-    }
-    
-    // Add active class to the current button (highlight it)
-    var header = document.getElementById("myHeader");
-    var btns = header.getElementsByClassName("btn");
-    for (var i = 0; i < btns.length; i++) {
-      btns[i].addEventListener("click", function() {
-        var current = document.getElementsByClassName("active");
-        current[0].className = current[0].className.replace(" active", "");
-        this.className += " active";
-      });
-    }
-  </script>
   </div>
   <div id="pot">
-  <img src="images/pidgey.png" width=100px height=100px class="pidgey">
+  <img src="images/zubat.png" width=100px height=100px class="pidgey">
   </div> 
   <div id="pot-two">
   <img src="images/pidgey.png" width=100px height=100px class="pidgey">
   </div>
   <div id="pot-three">
-    <img src="images/starmie.png" width=100px height=100px class="pidgey">
+    <img src="images/hooh.png" width=100px height=100px class="pidgey">
     </div>
+    <div id="pot-four">
+      <img src="images/lugia.png" width=100px height=100px class="lugey">
+      </div>
 </body>
 </html>

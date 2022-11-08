@@ -219,7 +219,6 @@ transform: rotate(-820deg)
 .fire-three:hover{
     transform: rotate(-320deg)
 }
-
 @keyframes color {
   0%   { background: rgb(255,31,31); }
   20%   { background: rgb(253, 228, 36)}

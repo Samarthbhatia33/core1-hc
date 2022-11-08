@@ -2,6 +2,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -9,17 +10,30 @@
     display: grid;
     grid-template-columns: 200px 200px 200px 1fr;
     align:center;
+    width: 100%;
+    box-sizing: border-box;
     ">
-    <div style=" background-color:rgb(204,51,99); font-family: courier new; text-align: center;"> Harmonic Collection </div>
-    <div style=" background-color:rgb(98,195,112); font-family: courier new; text-align: center;color: white;"> Entry 8 </div>
-    <div style=" background-color:rgb(154, 209, 212); font-family: courier new; text-align: center;color: white;"> Nov 2022 </div>
+    <div style=" background-color:rgb(204,51,99); font-family: courier new; text-align: center;" class="ek"> Harmonic Collection </div>
+    <div style=" background-color:rgb(98,195,112); font-family: courier new; text-align: center;color: white;" class="dou"> Entry 8 </div>
+    <div style=" background-color:rgb(154, 209, 212); font-family: courier new; text-align: center;color: white;" class="teen"> Nov 2022 </div>
     <div style=" background-color:rgb(194, 249, 187); font-family: courier new; text-align: center;"> YouTube? </div>
 </div>
   <style>
     * {
       box-sizing: border-box;
     }
-    
+    .ek::after {
+  content: "";
+  clear: both;
+  display: table;
+      width: 33.33%;
+    }
+    .dou{
+      width: 33.33%;
+    }
+    .teen{
+      width: 33.33%;
+    }
     body {
       margin: 0;
         }
@@ -27,6 +41,8 @@
     .header {
       text-align: center;
       padding: 0px;
+      width: 100%;
+      
     }
     
     .row {
@@ -36,6 +52,7 @@
       flex-wrap: wrap;
       padding: 0px;
       margin: 0;
+      box-sizing: border-box;
     }
     /* Create three equal columns that sits next to each other */
     .column {
@@ -59,6 +76,8 @@
       -ms-flex: 50%; /* IE 10 */
       flex: 10%;
       padding: 10px;
+      width: 100%;
+
     }
     .column-two img {
       margin-top: 100px;
@@ -102,6 +121,8 @@ padding-right: 0;
 text-align: right;
 text-align: justify;
 width: 900px;
+width: 100%;
+box-sizing: border-box;
     }
   .first{
     font-family: 'gill sans';
@@ -135,10 +156,18 @@ width: 900px;
     transform: scale(-2.5) translate(700%, -500%);
     transform: scale(2, 0.5);
   }
+  .column-uno{
+    width: 33.33%;
+  }
+  .column-dos{
+    width: 33.33%;
+  }
+  .column-tres{
+    width: 33.33%;
+  }
     </style>
     </head>
     <body>
-
     <div class="introduction">
     <div class="header" id="myHeader">
       <h1 class="poke">STARTER POKÉMON // 最初のポケモン </h1>
@@ -156,17 +185,17 @@ width: 900px;
   </div>
 
     <div class="row"> 
-      <div class="column">
+      <div class="column-uno">
         <img class="bulba" src="images/bulba.png" style="width:100%">
         <img class="charmander" src="images/fire-one.png" style="width:100%">
         <img class="squirtle" src="images/squr.png" style="width:100%">
       </div>
-      <div class="column">
+      <div class="column-dos">
         <img class="ivy" src="images/ivy.png" style="width:100%">
         <img class="charmeleon" src="images/fire-two.webp" style="width:100%">
         <img class="war" src="images/war.png" style="width:100%">
       </div>  
-      <div class="column">
+      <div class="column-tres">
         <img class="venu"src="images/venu.png" style="width:100%">
         <img class="chari"src="images/fire-three.png" style="width:100%">
         <img class="blast" src="images/blast.png" style="width:100%">
@@ -175,9 +204,9 @@ width: 900px;
     <div>
       <div class="row-two"> 
         <div class="column-two">
-          <img class="abra" src="images/abra.png" style="width:20%">
-          <img class="kadabra" src="images/kadabra.png" style="width:20%">
-          <img class="alakazam" src="images/alakazam.png" style="width:20%">
+          <img class="abra" src="images/abra.png" style="width:50%">
+          <img class="kadabra" src="images/kadabra.png" style="width:50%">
+          <img class="alakazam" src="images/alakazam.png" style="width:50%">
         </div>
       </div>
     <script>

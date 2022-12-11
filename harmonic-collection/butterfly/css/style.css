@@ -1,4 +1,4 @@
-.animate-charcter
+.animate-character
 {
    text-transform: uppercase;
   background-image: linear-gradient(
@@ -23,6 +23,7 @@
       width: 100%;
       box-sizing: border-box;
       text-align: center;
+      width: 100%;
 }
 @keyframes textclip {
   to {
@@ -104,7 +105,7 @@ img {
     padding-bottom: 0;
     text-align: right;
     text-align: justify;
-    width: 80%;
+    width: 100%;
     box-sizing: border-box;
 }
 .para-2{
@@ -118,7 +119,19 @@ img {
     padding-bottom: 0;
     text-align: right;
     text-align: justify;
-    width: 80%;
+    width: 100%;
     box-sizing: border-box;
 margin-left: 40px;
 }
+.next-button{
+    font-family: 'courier new';
+   }
+   .next-button:hover{
+      text-decoration: underline;
+    }
+    .previous-button:hover{
+     text-decoration: underline;
+   }
+   .previous-button{
+     font-family: 'courier new';
+    }

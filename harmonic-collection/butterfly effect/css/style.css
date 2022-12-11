@@ -1,0 +1,124 @@
+.animate-charcter
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #3c15ca 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  margin-top: 0;
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 100px;
+      width: 100%;
+      box-sizing: border-box;
+      text-align: center;
+}
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+body {
+    font-family: Oswald;
+    -webkit-animation: bgcolor 20s infinite;
+    animation: bgcolor 10s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+}
+
+@keyframes bgcolor {
+    0% {
+        background-color: #759FBC
+    }
+    30% {
+        background-color: #A4243B
+    }
+    60% {
+        background-color: #02020B
+    }
+    90% {
+        background-color: #828C51
+    }
+    100% {
+        background-color: #E85F5C
+    }
+}
+
+.heading {
+    font-size: 2.5vw;
+    display: block;
+    font-weight: lighter;
+    padding-top: 10vw;
+    color: white;
+    text-align: center;
+}
+
+#images {
+    padding-top: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+}
+
+.lefttext {
+    color: #F7EDE2;
+    font-weight: lighter;
+}
+
+.righttext {
+    color: #F7EDE2;
+    font-weight: lighter;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    transition: 0.3s;
+    width: 10vw;
+}
+
+#email {
+    width: 1000;
+}
+.para-1{
+    font-family: 'gill sans';
+    font-size: 20px;
+    margin-bottom: 0;
+    padding-top: 0;
+    color: white;
+    padding-right: 0;
+    padding-left: 0;
+    padding-bottom: 0;
+    text-align: right;
+    text-align: justify;
+    width: 80%;
+    box-sizing: border-box;
+}
+.para-2{
+    font-family: 'gill sans';
+    font-size: 20px;
+    margin-bottom: 0;
+    padding-top: 0;
+    color: white;
+    padding-right: 0;
+    padding-left: 0;
+    padding-bottom: 0;
+    text-align: right;
+    text-align: justify;
+    width: 80%;
+    box-sizing: border-box;
+margin-left: 40px;
+}
